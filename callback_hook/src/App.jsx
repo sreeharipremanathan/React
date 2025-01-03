@@ -41,7 +41,7 @@ const App=()=>{
   const calculation=expensiveCalculation(count);
 
   const increment=()=>{
-    setCount((c)=>+1000);
+    setCount((c)=>c+1000);
   };
   const addTodo=()=>{
     setTodos((t)=>[...t,"new Todo"]);
